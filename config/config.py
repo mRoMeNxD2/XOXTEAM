@@ -7,34 +7,34 @@ from pyrogram import filters
 load_dotenv()
 
 #❖ Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", 26950268))
+API_HASH = getenv("API_HASH", "e69e4e5ed85a531a1404b69676ced949")
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "lx44kk")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "mR_oMeNxD")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "syn_ixbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "XoxMusicBot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "TANU MUSIC")
+BOT_NAME = getenv("BOT_NAME", "XOX MUSIC")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "TANU_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "YouAreBannedIG")
 
 #❖ Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7639095533:AAEiLtJHWWsMGLio61kYD5RH8oE2mbQGx6M")
 
 #❖ Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://niteenyadav114:KsgBFF5vBO5We0dz@xoxmusicbot.vm3ge.mongodb.net/?retryWrites=true&w=majority&appName=XoxMusicBot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002376393872"))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
+OWNER_ID = int(getenv("OWNER_ID", "1667886379"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/speedsnet/TanuMusic",
+    "https://github.com/mRoMeNxD2/XOXTEAM",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -53,16 +53,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/krishnetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CCXD4RK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+8UlU_5LOzOVjNzJk")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 #❖ Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e319091f771445b18c029299505d5d4f")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "293c334a2861415197a697b2d11dd4de")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "b50d4ccffc0a449e93f0716820492561")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "8bdc30ee4cb34ace9eccd8ed15d7af90")
 
 
 #❖ Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -76,7 +76,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 #❖ Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAGbOnwAe1xscaxw8Jjvu8WU0lhu96NP21tA2ii9VCOlPTuW5L6d_iM917g6VSRNr2ieZO9Xf2nYettiBmUk418heYOLpHcN9QPEjCMOphPNIAMibfLfy2NjutUfZ62C2v1gr1ye1MDNfNcWzHT46KcyX0pcJAFHqHkWSnURVDyKq_EKnA3Zrgaf5-aH9N6Vu7qf8KB9jPs-QnTi9xLQCwT6FRk0PSSPrQF7FtrhDdh5FzbSLJrWZ-d0uDEkFrzggYZsDiyERY1GPcuMdKhsLHfJ1VfQFnWopXOTsP1Ht0iXavL656dZ2EHtd7NFgtqAuM3_lhU23C9MX13HIBv4dfhVXy_6agAAAAGBLDTsAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -92,12 +92,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/SSL.jpg"
+    "START_IMG_URL", "https://envs.sh/YfS.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/qEB.jpg"
+    "PING_IMG_URL", "https://envs.sh/YfA.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/Yfj.jpg"
 STATS_IMG_URL = "https://envs.sh/SSk.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
